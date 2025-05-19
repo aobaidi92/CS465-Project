@@ -1,0 +1,23 @@
+{
+  "name": "cs465-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aobaidi92/CS465-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aobaidi92/CS465-Project/issues"
+  },
+  "homepage": "https://github.com/aobaidi92/CS465-Project#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
