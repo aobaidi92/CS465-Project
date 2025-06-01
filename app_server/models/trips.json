@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Trip to California",
+    "location": "San Francisco",
+    "price": 1299,
+    "duration": "4 days",
+    "summary": "Explore the Bay Area including the Golden Gate Bridge and Alcatraz."
+  },
+  {
+    "title": "Trip to New York",
+    "location": "Manhattan",
+    "price": 1499,
+    "duration": "5 days",
+    "summary": "Visit Times Square, Central Park, and the Statue of Liberty."
+  }
+]

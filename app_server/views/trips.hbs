@@ -1,0 +1,16 @@
+{{> header }}
+
+<h1>{{title}}</h1>
+
+<ul>
+    {{#each trips}}
+    <li>
+        <h2>{{this.title}} – {{this.location}}</h2>
+        <p><strong>Price:</strong> ${{this.price}}</p>
+        <p><strong>Duration:</strong> {{this.duration}}</p>
+        <p>{{this.summary}}</p>
+    </li>
+    {{/each}}
+</ul>
+
+{{> footer }}

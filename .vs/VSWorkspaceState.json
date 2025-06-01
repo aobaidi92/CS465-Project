@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app_server",
+    "\\app_server\\views",
+    "\\app_server\\views\\partials",
+    "\\travlr"
+  ],
+  "SelectedNode": "\\app_server\\views\\partials\\header.hbs",
+  "PreviewInSolutionExplorer": false
+}
