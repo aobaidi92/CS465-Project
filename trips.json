@@ -1,0 +1,22 @@
+[
+  {
+    "code": "TR1000",
+    "name": "Tranquil Beach Escape",
+    "length": "7 days",
+    "start": "2025-07-01",
+    "resort": "Ocean Breeze",
+    "perPerson": 1500,
+    "image": "beach.jpg",
+    "description": "Relax and unwind at the scenic Ocean Breeze resort."
+  },
+  {
+    "code": "TR2000",
+    "name": "Mountain Adventure",
+    "length": "5 days",
+    "start": "2025-08-15",
+    "resort": "Summit Lodge",
+    "perPerson": 1200,
+    "image": "mountain.jpg",
+    "description": "Explore the great outdoors with guided mountain hikes."
+  }
+]
