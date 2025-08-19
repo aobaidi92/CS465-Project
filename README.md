@@ -57,11 +57,11 @@ node app.js
 cd app_admin
 npm install
 ng serve
-# Open http://localhost:4200
-
+# Open http://localhost:4200 
 
 
 ---
+```
 
 
 ---
