@@ -1,0 +1,19 @@
+<div class="card" style="width:16rem;">
+  <div class="card-header">{{ trip.name }}</div>
+
+  <img *ngIf="trip.image"
+       class="card-img-top"
+       [src]="'assets/images/' + trip.image"
+       alt="trip thumbnail">
+
+  <div class="card-body">
+    <h6 class="card-subtitle mb-2 text-muted">{{ trip.resort }}</h6>
+    <p class="card-text text-sm mt-2">{{ trip.description }}</p>
+    <p class="card-text mt-2">
+      <strong>{{ trip.price | currency }}</strong>
+      • {{ trip.length }} nights
+      • {{ trip.spaces }} spaces
+    </p>
+    <button class="btn btn-primary btn-sm" (click)="edit.emit(trip)">Edit</button>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+<div class="container py-3">
+  <h2 class="mb-3">Travlr Admin — Trips</h2>
+
+  <!-- Screenshot #1 area -->
+  <div class="row g-3">
+    <div class="col-auto" *ngFor="let t of trips()">
+      <trip-card [trip]="t" (edit)="onEdit(t)"></trip-card>
+    </div>
+  </div>
+
+  <!-- Screenshot #2 area (Edit form) -->
+  <trip-form
+    *ngIf="selectedTrip()"
+    [trip]="selectedTrip()"
+    (save)="onSave($event)"
+    (cancel)="onCancel()">
+  </trip-form>
+
+  <!-- Screenshot #3 toast -->
+  <div *ngIf="toast()" class="alert alert-success mt-3">{{ toast() }}</div>
+</div>
