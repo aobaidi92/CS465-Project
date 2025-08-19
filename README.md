@@ -58,3 +58,17 @@ cd app_admin
 npm install
 ng serve
 # Open http://localhost:4200
+
+
+
+---
+
+
+
+## Reflection
+
+This module helped me better understand how to apply security to a full-stack application by implementing JSON Web Token (JWT) authentication. I learned how to secure API endpoints, test token-based login with Postman, and refactor both the front-end and back-end to include authentication. While setting this up, I ran into issues with invalid username/password, which reminded me how important clear environment configuration and proper testing are for security features. Overall, I gained valuable experience in applying authentication and testing methods in a real project.
+
+## Author
+Omar Obaidi  
+Southern New Hampshire University — B.S. Computer Science (Nov 2025)
